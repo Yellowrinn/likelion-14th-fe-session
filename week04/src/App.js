@@ -2,9 +2,9 @@ import './App.css';
 
 function App() {
   const routines = [
-  { time: "아침 | 08:00", content: "학교 갈 준비하기", ex:'힘든 하루의 시작했습니다' },
-  { time: "점심 | 13:00", content: "수업 열심히 듣기", ex :'힘든 수업의 시작했습니다' },
-  { time: "저녁 | 20:00", content: "일하기", ex: '힘듬의 최고조를 시작했습니다' }
+  { time: "아침 | 08:00", content: "학교 갈 준비를 합니다", ex:'힘든 하루의 시작했습니다' },
+  { time: "점심 | 13:00", content: "수업 열심히 듣습니다", ex :'힘든 수업의 시작했습니다' },
+  { time: "저녁 | 20:00", content: "일을합니다", ex: '힘듬의 최고조를 시작했습니다' }
 ];
   const cheer = () => {
     alert("오늘하루도 힘내세요!");
